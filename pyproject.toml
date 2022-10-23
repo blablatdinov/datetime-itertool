@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "datetime-itertool"
 description = "This is how python package should look like!"
-version = "0.1.0"
+version = "0.0.1-alpha"
 license = "MIT"
 
 authors = []
