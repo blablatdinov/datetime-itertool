@@ -5,13 +5,12 @@
 [![Python Version](https://img.shields.io/pypi/pyversions/datetime-itertool.svg)](https://pypi.org/project/datetime-itertool/)
 [![wemake-python-styleguide](https://img.shields.io/badge/style-wemake-000000.svg)](https://github.com/wemake-services/wemake-python-styleguide)
 
-This is how python package should look like!
+Simple datetime iterator
 
 
 ## Features
 
 - Fully typed with annotations and checked with mypy, [PEP561 compatible](https://www.python.org/dev/peps/pep-0561/)
-- Add yours!
 
 
 ## Installation
@@ -26,10 +25,21 @@ pip install datetime-itertool
 Showcase how your project can be used:
 
 ```python
-from datetime_itertool.example import some_function
+import datetime
 
-print(some_function(3, 4))
-# => 7
+from datetime_itertool.datetime_iterator import DateTimeIterator
+
+
+start = datetime.datetime(2022, 2, 7)
+end = datetime.datetime(2022, 2, 10)
+
+
+for date_time in DateTimeIterator(start, end):
+    print(date_time)
+
+# 2022-02-07 00:00:00
+# 2022-02-08 00:00:00
+# 2022-02-09 00:00:00
 ```
 
 ## License

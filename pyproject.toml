@@ -1,14 +1,14 @@
 [tool.poetry]
 name = "datetime-itertool"
-description = "This is how python package should look like!"
+description = "Simple datetime iterator"
 version = "0.0.1-alpha"
 license = "MIT"
 
-authors = []
+authors = ["Almaz Ilaletdinov <a.ilaletdinov@yandex.ru>"]
 
 readme = "README.md"
 
-repository = "https://github.com/a.ilaletdinov/datetime-itertool"
+repository = "https://github.com/blablatdinov/datetime-itertool"
 
 keywords = []
 
