@@ -10,7 +10,6 @@ class DateTimeIteratorInterface(Protocol):
 
         :return: DateTimeIterator
         """
-        raise NotImplementedError
 
     def __next__(self) -> datetime.datetime:
         """Iteration next value.
@@ -18,7 +17,6 @@ class DateTimeIteratorInterface(Protocol):
         :return: datetime.datetime
         :raises StopIteration: if iteration is ended
         """
-        raise NotImplementedError
 
 
 _default_step = datetime.timedelta(days=1)
