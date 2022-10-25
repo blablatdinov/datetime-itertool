@@ -21,6 +21,7 @@ classifiers = [
 
 [tool.poetry.dependencies]
 python = "^3.7"
+pytest-freezegun = "^0.4.2"
 
 [tool.poetry.group.test.dependencies]
 mypy = "^0.982"
